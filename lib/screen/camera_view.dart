@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
 
-import '../../main.dart';
+import '../main.dart';
 
 enum ScreenMode { liveFeed, gallery }
 

@@ -36,7 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.3.8
   provider: ^6.0.1
-  flutter_dotenv: ^5.0.2
   camera: ^0.9.4+4
   google_ml_kit: ^0.7.3
 
