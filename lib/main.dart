@@ -10,20 +10,11 @@ void main() async {
 
   runApp(
     GetMaterialApp(
-      theme: ThemeData(
-        primaryColor: Colors.white,
-        focusColor: Color(0xff005FFE),
-        cardColor: Color(0xffa3a3a3),
-        fontFamily: 'Rabar',
-      ),
       initialRoute: '/',
       getPages: [
         GetPage(
           name: '/',
-          page: () => Directionality(
-            textDirection: TextDirection.rtl,
-            child: Home(),
-          ),
+          page: () => Home(),
           transition: Transition.fadeIn,
         ),
       ],
